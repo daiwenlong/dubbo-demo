@@ -16,7 +16,7 @@ public class Provider {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:provider.xml");
         System.out.println(context.getDisplayName() + ": here");
         context.start();
-        System.out.println("provider1 started");
+        System.out.println("provider2 started");
         try {
             System.in.read();
         } catch (IOException e) {

@@ -12,6 +12,7 @@
         <module>dubbo-api</module>
         <module>dubbo-provider</module>
         <module>dubbo-consumer</module>
+        <module>dubbo-provider2</module>
     </modules>
     <properties>
         <dubbo.version>2.5.3</dubbo.version>

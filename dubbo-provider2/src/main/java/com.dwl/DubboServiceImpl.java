@@ -8,7 +8,7 @@ package com.dwl;
  **/
 public class DubboServiceImpl implements DubboService {
     public String getMessage(String msg) {
-        return "provider1 receive your call:"+msg;
+        return "provider2 receive your call:"+msg;
     }
 }
 
